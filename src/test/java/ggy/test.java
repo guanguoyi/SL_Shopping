@@ -1,6 +1,8 @@
 package ggy;
 
 import com.sy.config.SpringConfig;
+import com.sy.service.ggy.Au_functionService;
+import com.sy.service.ggy.Au_userService;
 import com.sy.service.ggy.Info_annexesService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,8 +14,12 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class test {
     @Autowired
     Info_annexesService infoAnnexesService;
+    @Autowired
+    Au_userService au_userService;
+    @Autowired
+    Au_functionService au_functionService;
     @Test
-    public void test(){
-        System.out.println(infoAnnexesService.findAll());
+    public void test() throws Exception {
+//        System.out.println(au_functionService.findByIdAndparentId(1l));
     }
 }

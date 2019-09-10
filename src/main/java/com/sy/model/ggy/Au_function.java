@@ -1,19 +1,35 @@
 package com.sy.model.ggy;
 
 import java.util.Date;
+import java.util.List;
 
 public class Au_function {
     private Long id;
 
-    private String functioncode;
+    private String functionCode;
 
-    private String functionname;
+    private String functionName;
 
-    private String funcurl;
+    private String funcUrl;
 
-    private Long parentid;
+    private Long parentId;
 
-    private Date creationtime;
+    private Date creationTime;
+
+    private List<Au_function> secAuFunction;
+
+    @Override
+    public String toString() {
+        return "Au_function{" +
+                "id=" + id +
+                ", functionCode='" + functionCode + '\'' +
+                ", functionName='" + functionName + '\'' +
+                ", funcUrl='" + funcUrl + '\'' +
+                ", parentId=" + parentId +
+                ", creationTime=" + creationTime +
+                ", secAuFunction=" + secAuFunction +
+                '}';
+    }
 
     public Long getId() {
         return id;
@@ -23,43 +39,51 @@ public class Au_function {
         this.id = id;
     }
 
-    public String getFunctioncode() {
-        return functioncode;
+    public String getFunctionCode() {
+        return functionCode;
     }
 
-    public void setFunctioncode(String functioncode) {
-        this.functioncode = functioncode;
+    public void setFunctionCode(String functionCode) {
+        this.functionCode = functionCode;
     }
 
-    public String getFunctionname() {
-        return functionname;
+    public String getFunctionName() {
+        return functionName;
     }
 
-    public void setFunctionname(String functionname) {
-        this.functionname = functionname;
+    public void setFunctionName(String functionName) {
+        this.functionName = functionName;
     }
 
-    public String getFuncurl() {
-        return funcurl;
+    public String getFuncUrl() {
+        return funcUrl;
     }
 
-    public void setFuncurl(String funcurl) {
-        this.funcurl = funcurl;
+    public void setFuncUrl(String funcUrl) {
+        this.funcUrl = funcUrl;
     }
 
-    public Long getParentid() {
-        return parentid;
+    public Long getParentId() {
+        return parentId;
     }
 
-    public void setParentid(Long parentid) {
-        this.parentid = parentid;
+    public void setParentId(Long parentId) {
+        this.parentId = parentId;
     }
 
-    public Date getCreationtime() {
-        return creationtime;
+    public Date getCreationTime() {
+        return creationTime;
     }
 
-    public void setCreationtime(Date creationtime) {
-        this.creationtime = creationtime;
+    public void setCreationTime(Date creationTime) {
+        this.creationTime = creationTime;
+    }
+
+    public List<Au_function> getSecAuFunction() {
+        return secAuFunction;
+    }
+
+    public void setSecAuFunction(List<Au_function> secAuFunction) {
+        this.secAuFunction = secAuFunction;
     }
 }

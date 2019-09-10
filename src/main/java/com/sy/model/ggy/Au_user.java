@@ -5,23 +5,23 @@ import java.util.Date;
 public class Au_user {
     private Long id;
 
-    private String logincode;
+    private String loginCode;
 
     private String password;
 
     private String password2;
 
-    private String username;
+    private String userName;
 
     private String sex;
 
     private Date birthday;
 
-    private String cardtype;
+    private String cardType;
 
-    private String cardtypename;
+    private String cardTypeName;
 
-    private String idcard;
+    private String idCard;
 
     private String country;
 
@@ -29,39 +29,75 @@ public class Au_user {
 
     private String email;
 
-    private String useraddress;
+    private String userAddress;
 
-    private String postcode;
+    private String postCode;
 
-    private Date createtime;
+    private Date createTime;
 
-    private Long referid;
+    private Long referId;
 
-    private String refercode;
+    private String referCode;
 
-    private Long roleid;
+    private Long roleId;
 
-    private String rolename;
+    private String roleName;
 
-    private String usertype;
+    private String userType;
 
-    private String usertypename;
+    private String userTypeName;
 
-    private Integer isstart;
+    private Integer isStart;
 
-    private Date lastupdatetime;
+    private Date lastUpdateTime;
 
-    private Date lastlogintime;
+    private Date lastLoginTime;
 
-    private String bankaccount;
+    private String bankAccount;
 
-    private String bankname;
+    private String bankName;
 
-    private String accountholder;
+    private String accountHolder;
 
-    private String idcardpicpath;
+    private String idCardPicPath;
 
-    private String bankpicpath;
+    private String bankPicPath;
+
+    @Override
+    public String toString() {
+        return "Au_user{" +
+                "id=" + id +
+                ", logincode='" + loginCode + '\'' +
+                ", password='" + password + '\'' +
+                ", password2='" + password2 + '\'' +
+                ", userName='" + userName + '\'' +
+                ", sex='" + sex + '\'' +
+                ", birthday=" + birthday +
+                ", cardType='" + cardType + '\'' +
+                ", cardTypeName='" + cardTypeName + '\'' +
+                ", idCard='" + idCard + '\'' +
+                ", country='" + country + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", email='" + email + '\'' +
+                ", userAddress='" + userAddress + '\'' +
+                ", postCode='" + postCode + '\'' +
+                ", createTime=" + createTime +
+                ", referId=" + referId +
+                ", referCode='" + referCode + '\'' +
+                ", roleId=" + roleId +
+                ", roleName='" + roleName + '\'' +
+                ", userType='" + userType + '\'' +
+                ", userTypeName='" + userTypeName + '\'' +
+                ", isStart=" + isStart +
+                ", lastUpdateTime=" + lastUpdateTime +
+                ", lastLoginTime=" + lastLoginTime +
+                ", bankAccount='" + bankAccount + '\'' +
+                ", bankName='" + bankName + '\'' +
+                ", accountHolder='" + accountHolder + '\'' +
+                ", idCardPicPath='" + idCardPicPath + '\'' +
+                ", bankPicPath='" + bankPicPath + '\'' +
+                '}';
+    }
 
     public Long getId() {
         return id;
@@ -71,12 +107,12 @@ public class Au_user {
         this.id = id;
     }
 
-    public String getLogincode() {
-        return logincode;
+    public String getLoginCode() {
+        return loginCode;
     }
 
-    public void setLogincode(String logincode) {
-        this.logincode = logincode;
+    public void setLoginCode(String loginCode) {
+        this.loginCode = loginCode;
     }
 
     public String getPassword() {
@@ -95,12 +131,12 @@ public class Au_user {
         this.password2 = password2;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getSex() {
@@ -119,28 +155,28 @@ public class Au_user {
         this.birthday = birthday;
     }
 
-    public String getCardtype() {
-        return cardtype;
+    public String getCardType() {
+        return cardType;
     }
 
-    public void setCardtype(String cardtype) {
-        this.cardtype = cardtype;
+    public void setCardType(String cardType) {
+        this.cardType = cardType;
     }
 
-    public String getCardtypename() {
-        return cardtypename;
+    public String getCardTypeName() {
+        return cardTypeName;
     }
 
-    public void setCardtypename(String cardtypename) {
-        this.cardtypename = cardtypename;
+    public void setCardTypeName(String cardTypeName) {
+        this.cardTypeName = cardTypeName;
     }
 
-    public String getIdcard() {
-        return idcard;
+    public String getIdCard() {
+        return idCard;
     }
 
-    public void setIdcard(String idcard) {
-        this.idcard = idcard;
+    public void setIdCard(String idCard) {
+        this.idCard = idCard;
     }
 
     public String getCountry() {
@@ -167,139 +203,139 @@ public class Au_user {
         this.email = email;
     }
 
-    public String getUseraddress() {
-        return useraddress;
+    public String getUserAddress() {
+        return userAddress;
     }
 
-    public void setUseraddress(String useraddress) {
-        this.useraddress = useraddress;
+    public void setUserAddress(String userAddress) {
+        this.userAddress = userAddress;
     }
 
-    public String getPostcode() {
-        return postcode;
+    public String getPostCode() {
+        return postCode;
     }
 
-    public void setPostcode(String postcode) {
-        this.postcode = postcode;
+    public void setPostCode(String postCode) {
+        this.postCode = postCode;
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
-    public Long getReferid() {
-        return referid;
+    public Long getReferId() {
+        return referId;
     }
 
-    public void setReferid(Long referid) {
-        this.referid = referid;
+    public void setReferId(Long referId) {
+        this.referId = referId;
     }
 
-    public String getRefercode() {
-        return refercode;
+    public String getReferCode() {
+        return referCode;
     }
 
-    public void setRefercode(String refercode) {
-        this.refercode = refercode;
+    public void setReferCode(String referCode) {
+        this.referCode = referCode;
     }
 
-    public Long getRoleid() {
-        return roleid;
+    public Long getRoleId() {
+        return roleId;
     }
 
-    public void setRoleid(Long roleid) {
-        this.roleid = roleid;
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
     }
 
-    public String getRolename() {
-        return rolename;
+    public String getRoleName() {
+        return roleName;
     }
 
-    public void setRolename(String rolename) {
-        this.rolename = rolename;
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
-    public String getUsertype() {
-        return usertype;
+    public String getUserType() {
+        return userType;
     }
 
-    public void setUsertype(String usertype) {
-        this.usertype = usertype;
+    public void setUserType(String userType) {
+        this.userType = userType;
     }
 
-    public String getUsertypename() {
-        return usertypename;
+    public String getUserTypeName() {
+        return userTypeName;
     }
 
-    public void setUsertypename(String usertypename) {
-        this.usertypename = usertypename;
+    public void setUserTypeName(String userTypeName) {
+        this.userTypeName = userTypeName;
     }
 
-    public Integer getIsstart() {
-        return isstart;
+    public Integer getIsStart() {
+        return isStart;
     }
 
-    public void setIsstart(Integer isstart) {
-        this.isstart = isstart;
+    public void setIsStart(Integer isStart) {
+        this.isStart = isStart;
     }
 
-    public Date getLastupdatetime() {
-        return lastupdatetime;
+    public Date getLastUpdateTime() {
+        return lastUpdateTime;
     }
 
-    public void setLastupdatetime(Date lastupdatetime) {
-        this.lastupdatetime = lastupdatetime;
+    public void setLastUpdateTime(Date lastUpdateTime) {
+        this.lastUpdateTime = lastUpdateTime;
     }
 
-    public Date getLastlogintime() {
-        return lastlogintime;
+    public Date getLastLoginTime() {
+        return lastLoginTime;
     }
 
-    public void setLastlogintime(Date lastlogintime) {
-        this.lastlogintime = lastlogintime;
+    public void setLastLoginTime(Date lastLoginTime) {
+        this.lastLoginTime = lastLoginTime;
     }
 
-    public String getBankaccount() {
-        return bankaccount;
+    public String getBankAccount() {
+        return bankAccount;
     }
 
-    public void setBankaccount(String bankaccount) {
-        this.bankaccount = bankaccount;
+    public void setBankAccount(String bankAccount) {
+        this.bankAccount = bankAccount;
     }
 
-    public String getBankname() {
-        return bankname;
+    public String getBankName() {
+        return bankName;
     }
 
-    public void setBankname(String bankname) {
-        this.bankname = bankname;
+    public void setBankName(String bankName) {
+        this.bankName = bankName;
     }
 
-    public String getAccountholder() {
-        return accountholder;
+    public String getAccountHolder() {
+        return accountHolder;
     }
 
-    public void setAccountholder(String accountholder) {
-        this.accountholder = accountholder;
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
     }
 
-    public String getIdcardpicpath() {
-        return idcardpicpath;
+    public String getIdCardPicPath() {
+        return idCardPicPath;
     }
 
-    public void setIdcardpicpath(String idcardpicpath) {
-        this.idcardpicpath = idcardpicpath;
+    public void setIdCardPicPath(String idCardPicPath) {
+        this.idCardPicPath = idCardPicPath;
     }
 
-    public String getBankpicpath() {
-        return bankpicpath;
+    public String getBankPicPath() {
+        return bankPicPath;
     }
 
-    public void setBankpicpath(String bankpicpath) {
-        this.bankpicpath = bankpicpath;
+    public void setBankPicPath(String bankPicPath) {
+        this.bankPicPath = bankPicPath;
     }
 }

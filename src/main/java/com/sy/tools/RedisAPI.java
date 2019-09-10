@@ -59,4 +59,11 @@ public class RedisAPI {
 		}
 		return value;
 	}
+	public void delete(String key){
+		try{
+			redisTemplate.delete(key);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
 }
