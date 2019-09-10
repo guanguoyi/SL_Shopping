@@ -14,6 +14,6 @@ public class test {
     Info_annexesService infoAnnexesService;
     @Test
     public void test(){
-//        System.out.println(infoAnnexesService.findAll());
+        System.out.println(infoAnnexesService.findAll());
     }
 }

@@ -93,7 +93,7 @@
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.properties</include>
-                    <include>**/*.yml</include>
+                    <include>**/</include>
                 </includes>
             </resource>
             <resource>
